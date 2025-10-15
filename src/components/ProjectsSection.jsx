@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "p title",
-        description: "description",
-        image: "path to image /projects/imgname",
-        tags: ["put", "skills", "relevant to project"],
-        demoURL: "#",
-        githubURL: "#",
+        title: "Hospital Management System",
+        description: "A Python TKinter application for managing patients, doctors, appointments, payments, and departments. Features real-time billing, departmental dashboards, and optimized database operations using stored procedures, views, triggers, and indexes.",
+        image: "/projects/hosppysys.png",
+        tags: ["Python 3.11", "MySQL 8", "PHP MyAdmin", "Tkinter", "Docker & Docker Compose"],
+        demoURL: "https://github.com/Qaulity/Hospital-Management-System",
+        githubURL: "https://github.com/Qaulity",
     },
     {
         id: 1,
@@ -17,7 +17,7 @@ const projects = [
         image: "path to image /projects/imgname",
         tags: ["put", "skills", "relevant to project"],
         demoURL: "#",
-        githubURL: "#",
+        githubURL: "https://github.com/Qaulity",
     },
     {
         id: 1,
@@ -26,7 +26,7 @@ const projects = [
         image: "path to image /projects/imgname",
         tags: ["put", "skills", "relevant to project"],
         demoURL: "#",
-        githubURL: "#",
+        githubURL: "https://github.com/Qaulity",
     },
     // copy and paste for other projects
 ]

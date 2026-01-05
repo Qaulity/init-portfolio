@@ -1,5 +1,4 @@
 import { Briefcase, Code, School2 } from "lucide-react"
-import resumePDF from "/Resume(1).pdf"
 
 
 export const AboutSection = () => {
@@ -27,7 +26,7 @@ export const AboutSection = () => {
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button">Contact</a>
-                        <a href={resumePDF} download="Resume.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Download Resume</a>
+                        <a href="https://docs.google.com/uc?export=download&id=1u4hpkn4d3qO7u2ReJjG7SLyHsBuTtGY1" download="Resume.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Download Resume</a>
                     </div>
                 </div>
 

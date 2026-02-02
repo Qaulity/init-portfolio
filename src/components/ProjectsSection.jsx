@@ -39,6 +39,15 @@ const projects = [
         demoURL: "#",
         githubURL: "https://github.com/Qaulity",
     },
+    {
+        id: 5,
+        title: "Financial Markets Analsys",
+        description: "A full-stack financial analytics dashboard that aggregates news from multiple sources (NewsAPI, RSS feeds), analyzes them using ML/NLP (FinBERT sentiment analysis, spaCy NER for ticker extraction, BERTopic for topic modeling), and generates AI-powered market insights via Claude.",
+        image: "/projects/fin.png",
+        tags: ["Flask API", "Redis 7 Alpine", "PyTorch/Transformers", "yfinance", "Docker", "BeautifulSoup4 + lxml", "GUNICORN", "React", "TypeScript", "TailwindCSS", "Recharts", "FinBERT (financial sentiment)", "spaCy (entity extraction)", "BERTopic (topics)", "Claude (market summaries)"],
+        demoURL: "https://github.com/Qaulity/AIFINANALYSIS",
+        githubURL: "https://github.com/Qaulity",
+    },
     
 ]
 
